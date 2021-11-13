@@ -1,0 +1,6 @@
+framework module Pods_DecAntique {
+  umbrella header "Pods-DecAntique-umbrella.h"
+
+  export *
+  module * { export * }
+}

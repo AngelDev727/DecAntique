@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="i0z-wf-Rbh">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="FGp-RH-SOR">
+            <objects>
+                <viewController id="i0z-wf-Rbh" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FC4-dE-WaS">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.45000000000000001" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BackGroundDarkMode" translatesAutoresizingMaskIntoConstraints="NO" id="Cld-y1-7id">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <color key="backgroundColor" name="Tint"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="udq-n4-EEz">
+                                <rect key="frame" x="20.5" y="334" width="373" height="228"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="udq-n4-EEz" secondAttribute="height" multiplier="307:188" id="BCZ-Vk-nOP"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="pfg-bY-7hK"/>
+                        <color key="backgroundColor" name="Tint"/>
+                        <constraints>
+                            <constraint firstItem="udq-n4-EEz" firstAttribute="width" secondItem="FC4-dE-WaS" secondAttribute="width" multiplier="0.9" id="MiS-hg-0iT"/>
+                            <constraint firstItem="Cld-y1-7id" firstAttribute="top" secondItem="FC4-dE-WaS" secondAttribute="top" id="RYB-Ue-GD2"/>
+                            <constraint firstItem="Cld-y1-7id" firstAttribute="leading" secondItem="pfg-bY-7hK" secondAttribute="leading" id="SAF-Dw-Ci9"/>
+                            <constraint firstItem="Cld-y1-7id" firstAttribute="trailing" secondItem="pfg-bY-7hK" secondAttribute="trailing" id="Z2U-IR-cbG"/>
+                            <constraint firstItem="udq-n4-EEz" firstAttribute="centerX" secondItem="FC4-dE-WaS" secondAttribute="centerX" id="oG0-kO-nzP"/>
+                            <constraint firstItem="udq-n4-EEz" firstAttribute="centerY" secondItem="FC4-dE-WaS" secondAttribute="centerY" id="tYI-MR-xBH"/>
+                            <constraint firstAttribute="bottom" secondItem="Cld-y1-7id" secondAttribute="bottom" id="zmI-1i-0O1"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fAT-om-s7G" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-102.89855072463769" y="347.54464285714283"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="BackGroundDarkMode" width="564" height="845"/>
+        <image name="Logo" width="614" height="376"/>
+        <namedColor name="Tint">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
